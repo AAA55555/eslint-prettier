@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint . && stylelint '**/*.css' && prettier --check ."
   },
   "files": [
     "index.js",
@@ -17,10 +17,11 @@
     "type": "git",
     "url": "https://github.com/aaa55555/eslint-prettier.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "stylelint": "^16.0.0"
+  },
   "devDependencies": {
     "@babel/eslint-parser": "^7.25.1",
     "@nuxtjs/eslint-config": "^11.0.0",
