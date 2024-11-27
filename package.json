@@ -13,6 +13,10 @@
     "prettier.config.js",
     "stylelint.config.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaa55555/eslint-prettier.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
