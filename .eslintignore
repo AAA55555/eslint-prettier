@@ -1,0 +1,11 @@
+node_modules
+devops/
+.github/
+*.yaml
+*.yml
+dist
+.nuxt
+storybook
+static/js
+.gitlab-ci.yml
+.helm
