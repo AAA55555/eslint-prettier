@@ -1,5 +1,5 @@
 {
-  "name": "eslint-prettier",
+  "name": "my-test-eslint-prettier",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -22,11 +22,9 @@
     "prettier": "^3.0.0",
     "stylelint": "^16.0.0"
   },
-  "eslintConfig": {
-    "extends": "eslint-prettier/eslint"
+  "publishConfig": {
+    "access": "public"
   },
-  "prettier": "eslint-prettier/prettier",
-  "stylelint": "eslint-prettier/stylelint",
   "devDependencies": {
     "@babel/eslint-parser": "^7.25.1",
     "@nuxtjs/eslint-config": "^11.0.0",
