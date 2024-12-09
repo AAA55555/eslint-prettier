@@ -17,11 +17,6 @@
     "type": "git",
     "url": "https://github.com/aaa55555/eslint-prettier.git"
   },
-  "peerDependencies": {
-    "eslint": "^8.0.0",
-    "prettier": "^3.0.0",
-    "stylelint": "^16.0.0"
-  },
   "publishConfig": {
     "access": "public"
   },
